@@ -1,0 +1,6 @@
+2022-11-07 20:35:40 log_manager.py[line:152] DEBUG init starting
+2022-11-07 20:35:40 log_manager.py[line:152] DEBUG init finished
+2022-11-07 20:35:50 log_manager.py[line:152] DEBUG local_save_model_secs: 0
+2022-11-07 20:38:53 log_manager.py[line:152] DEBUG Start training...
+2022-11-07 20:40:20 log_manager.py[line:77] DEBUG step: 1 images/sec mean = 87.2 recv_sample/sec = 2 total_loss: 0.87027293 noise_scale: 1.00 batch_noisescale: 512.00 mean noise scale = 1.000000
+2022-11-07 20:40:28 log_manager.py[line:77] DEBUG step: 2 images/sec mean = 66.5 total_loss: 0.68329734 noise_scale: 1.00 batch_noisescale: 512.00 mean noise scale = 1.000000

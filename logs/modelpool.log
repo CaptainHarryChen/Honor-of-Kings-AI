@@ -1,0 +1,35 @@
+2022-11-07 20:35:38.455	INFO	src/parameter.go:174	businessConf:
+role: master
+fileSavePath: /rl_framework/model_pool/pkg/model_pool_pkg/bin/files
+cluster: ""
+ip: 172.17.0.2
+port: "10013"
+httpPort: "10014"
+name: ""
+maxStorage: 2147483648
+hashCheck: crc32
+statisticsBufferSize: 500
+neighborsPerNode: 16
+maxConcurrentPushes: 3
+fetchHistoricalFiles: false
+useLruFileDelete: false
+downloadFromMasterIfMissing: false
+fileSizeParameters:
+    - 4MB 2s 3 16 5s 2m
+    - 8MB 2s 4 12 6s 2m
+    - 16MB 3s 5 10 7s 2m
+    - 32MB 4s 6 8 8s 2m
+    - 64MB 5s 7 6 14s 3m
+    - 128MB 6s 8 6 20s 5m
+    - 256MB 8s 8 6 36s 9m
+    - 512MB 10s 8 6 1m 15m
+    - 1GB 10s 16 5 2m 20m
+    - 2GB 10s 32 5 4m 40m
+    - 4GB 10s 64 5 6m 80m
+    - 8GB 10s 128 5 8m 160m
+    - 16GB 10s 256 5 8m 320m
+    - 32GB 10s 512 5 8m 640m
+    - 1TB 10s 3000 5 8m 3000m
+
+2022-11-07 20:35:38.455	INFO	server/service.go:130	process:543, http service:trpc.modelpool.main.ModelPoolHTTP launch success, tcp:0.0.0.0:10014, serving ...
+2022-11-07 20:35:38.455	INFO	server/service.go:130	process:543, trpc service:trpc.modelpool.main.ModelPool launch success, tcp:0.0.0.0:10013, serving ...

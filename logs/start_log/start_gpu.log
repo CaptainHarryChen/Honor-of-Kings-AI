@@ -1,0 +1,26 @@
+[2022-11-07 20:35:21] init dir
+[2022-11-07 20:35:21] start run set_gpu.sh
+./config.conf: line 1: [main]: command not found
+steps:, 157
+use_zmq:, 0
+use_socket:, 0
+howe start set_gpu0
+gpu_num, 1
+actor_num,
+gpu_ips, 127.0.0.1
+gpu_list, "127.0.0.1:35911"
+Nodelist, 127.0.0.1:1
+rm: cannot remove '/framework/send_model/mcp_opporation_tools/current.iplist': No such file or directory
+kill: sending signal to 413 failed: No such process
+[2022-11-07 20:35:36] start rl learner
+[2022-11-07 20:35:36] start monitor
+[2022-11-07 20:37:36] will run backup
+[2022-11-07 20:37:36] will get last back checkpoint file
+[2022-11-07 20:37:36] find last file: /code/code/gpu_code/send_model/model/checkpoints_20221107_203557.825073.tar
+[2022-11-07 20:37:36] will pack file: /code/code/gpu_code/send_model/model/checkpoints_20221107_203557.825073.tar
+[2022-11-07 20:37:47] will clean dir: /code/code/gpu_code/send_model/model, num: 20
+[2022-11-07 20:37:47] find /code/code/gpu_code/send_model/model files num: 2
+[2022-11-07 20:37:48] 
+[2022-11-07 20:37:48] will clean dir: /code/model_bkup, num: 20
+[2022-11-07 20:37:48] find /code/model_bkup files num: 1
+[2022-11-07 20:37:49] 

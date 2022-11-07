@@ -1,0 +1,28 @@
+2022-11-07 20:36:20,214 INFO actor.py[line:169]                actor[_run_episode] 140561552394048 [{'hero': 'luban', 'skill': 'frenzy'}, {'hero': 'luban', 'skill': 'frenzy'}]
+2022-11-07 20:36:20,237 WARNING deprecation.py[line:323]                deprecation[new_func] 140561552394048 From /usr/local/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2022-11-07 20:36:20,242 INFO saver.py[line:1280]                saver[restore] 140561552394048 Restoring parameters from /mnt/ramdisk/model/3EeahApbRKaapNlMuG0BvVjARfXnRCKk/checkpoint/model.ckpt
+2022-11-07 20:36:20,487 INFO saver.py[line:1280]                saver[restore] 140561552394048 Restoring parameters from /mnt/ramdisk/model/3EeahApbRKaapNlMuG0BvVjARfXnRCKk/checkpoint/model.ckpt
+2022-11-07 20:39:39,213 INFO actor.py[line:271]                actor[_run_episode] 140561552394048 Tower ActorType.ACTOR_TOWER in camp Camp.PLAYERCAMP_1, hp: 0
+2022-11-07 20:39:39,215 INFO actor.py[line:271]                actor[_run_episode] 140561552394048 Tower ActorType.ACTOR_TOWER in camp Camp.PLAYERCAMP_2, hp: 4540
+2022-11-07 20:39:39,216 INFO actor.py[line:271]                actor[_run_episode] 140561552394048 Tower ActorType.ACTOR_CRYSTAL in camp Camp.PLAYERCAMP_1, hp: 0
+2022-11-07 20:39:39,217 INFO actor.py[line:271]                actor[_run_episode] 140561552394048 Tower ActorType.ACTOR_CRYSTAL in camp Camp.PLAYERCAMP_2, hp: 7000
+2022-11-07 20:39:39,815 INFO actor.py[line:324]                actor[_print_info] 140561552394048 ==================================================
+2022-11-07 20:39:39,816 INFO actor.py[line:325]                actor[_print_info] 140561552394048 game_id : b'0.0.0.0_566_0_20221107203625_148'
+2022-11-07 20:39:39,824 INFO actor.py[line:334]                actor[_print_info] 140561552394048 aiprocess_process | sum: 54508.236999999994 mean:9.853260484454085 max:558.575 times:5532
+2022-11-07 20:39:39,828 INFO actor.py[line:334]                actor[_print_info] 140561552394048 sample_manger_format_data | sum: 331.89 mean:331.89 max:331.89 times:1
+2022-11-07 20:39:39,830 INFO actor.py[line:334]                actor[_print_info] 140561552394048 agent_process | sum: 55686.581999999995 mean:20.132531453362255 max:952.915 times:2766
+2022-11-07 20:39:39,833 INFO actor.py[line:334]                actor[_print_info] 140561552394048 step | sum: 129529.86599999998 mean:46.82930802603036 max:150.949 times:2766
+2022-11-07 20:39:39,836 INFO actor.py[line:334]                actor[_print_info] 140561552394048 save_sample | sum: 698.9169999999999 mean:0.25268148951554587 max:7.625 times:2766
+2022-11-07 20:39:39,850 INFO actor.py[line:334]                actor[_print_info] 140561552394048 one_frame | sum: 185636.15899999999 mean:67.11357881417209 max:983.923 times:2766
+2022-11-07 20:39:39,853 INFO actor.py[line:334]                actor[_print_info] 140561552394048 one_episode | sum: 199600.118 mean:199600.118 max:199600.118 times:1
+2022-11-07 20:39:39,854 INFO actor.py[line:334]                actor[_print_info] 140561552394048 reset | sum: 7993.945 mean:7993.945 max:7993.945 times:1
+2022-11-07 20:39:39,860 INFO actor.py[line:337]                actor[_print_info] 140561552394048 ==================================================
+2022-11-07 20:39:39,864 INFO actor.py[line:350]                actor[_print_info] 140561552394048 Agent is_main:False, type:network, camp:Camp.PLAYERCAMP_1,reward:-13.572, win:-1, win_112:-1,h_act_rate:1.0
+2022-11-07 20:39:39,865 INFO actor.py[line:359]                actor[_print_info] 140561552394048 Agent is_main:False, money_per_frame:0.13, kill:0, death:0, hurt_pf:2.31
+2022-11-07 20:39:39,866 INFO actor.py[line:350]                actor[_print_info] 140561552394048 Agent is_main:False, type:network, camp:Camp.PLAYERCAMP_2,reward:10.592, win:1, win_112:1,h_act_rate:1.0
+2022-11-07 20:39:39,868 INFO actor.py[line:359]                actor[_print_info] 140561552394048 Agent is_main:False, money_per_frame:0.16, kill:0, death:0, hurt_pf:1.79
+2022-11-07 20:39:39,869 INFO actor.py[line:393]                actor[_print_info] 140561552394048 game info length:8341
+2022-11-07 20:39:39,870 INFO actor.py[line:395]                actor[_print_info] 140561552394048 ==================================================
+2022-11-07 20:39:39,879 INFO actor.py[line:169]                actor[_run_episode] 140561552394048 [{'hero': 'luban', 'skill': 'frenzy'}, {'hero': 'luban', 'skill': 'frenzy'}]
