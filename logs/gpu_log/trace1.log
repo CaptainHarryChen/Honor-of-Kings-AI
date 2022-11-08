@@ -1,9 +1,9 @@
- Data for JOB [35690,1] offset 0 Total slots allocated 1
+ Data for JOB [52931,1] offset 0 Total slots allocated 1
 
  ========================   JOB MAP   ========================
 
- Data for node: cc5bac3998a2	Num slots: 1	Max slots: 0	Num procs: 1
- 	Process OMPI jobid: [35690,1] App: 0 Process rank: 0 Bound: N/A
+ Data for node: 0f8beae86658	Num slots: 1	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [52931,1] App: 0 Process rank: 0 Bound: N/A
 
  =============================================================
 /usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
@@ -38,12 +38,12 @@ WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/rl_framework/lear
 
 WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/rl_framework/learner/__init__.py:16: The name tf.logging.ERROR is deprecated. Please use tf.compat.v1.logging.ERROR instead.
 
-[cc5bac3998a2:00233] MCW rank 0 is not bound (or bound to all available processors)
+[0f8beae86658:00212] MCW rank 0 is not bound (or bound to all available processors)
 /bin/sh: nvidia-smi: command not found
-sample process learner_index:0 process_index:0 pid:306
-sample process learner_index:0 process_index:1 pid:309
-[BatchProcess::__process_run] process_index:0 pid:310
-[BatchProcess::__process_run] process_index:1 pid:311
+sample process learner_index:0 process_index:0 pid:308
+sample process learner_index:0 process_index:1 pid:310
+[BatchProcess::__process_run] process_index:0 pid:312
+[BatchProcess::__process_run] process_index:1 pid:313
 t shape (8192, 32)
 t shape (8192, 32)
 t shape (8192, 32)
@@ -52,13 +52,11 @@ t shape (8192, 32)
 t shape (8192, 32)
 t shape (8192, 32)
 t shape (8192, 32)
-2022-11-08 19:09:44.360864: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-11-08 19:09:44.379600: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2303995000 Hz
-2022-11-08 19:09:44.380793: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7b89810 executing computations on platform Host. Devices:
-2022-11-08 19:09:44.380839: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
-2022-11-08 19:09:44.866620: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
-[Debug] The sample is less than half the capacity 0 100
-[Debug] The sample is less than half the capacity 0 100
+2022-11-08 22:16:53.229639: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-08 22:16:53.249029: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2304000000 Hz
+2022-11-08 22:16:53.250670: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x6675880 executing computations on platform Host. Devices:
+2022-11-08 22:16:53.250721: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-11-08 22:16:53.856136: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 [Debug] The sample is less than half the capacity 0 100
 [Debug] The sample is less than half the capacity 0 100
 [Debug] The sample is less than half the capacity 0 100

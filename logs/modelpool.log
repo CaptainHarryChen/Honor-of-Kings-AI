@@ -1,4 +1,4 @@
-2022-11-08 19:09:34.320	INFO	src/parameter.go:174	businessConf:
+2022-11-08 22:16:40.797	INFO	src/parameter.go:174	businessConf:
 role: master
 fileSavePath: /rl_framework/model_pool/pkg/model_pool_pkg/bin/files
 cluster: ""
@@ -31,6 +31,5 @@ fileSizeParameters:
     - 32GB 10s 512 5 8m 640m
     - 1TB 10s 3000 5 8m 3000m
 
-2022-11-08 19:09:34.322	INFO	server/service.go:130	process:277, trpc service:trpc.modelpool.main.ModelPool launch success, tcp:0.0.0.0:10013, serving ...
-2022-11-08 19:09:34.321	INFO	server/service.go:130	process:277, http service:trpc.modelpool.main.ModelPoolHTTP launch success, tcp:0.0.0.0:10014, serving ...
-2022-11-08 19:09:51.213	INFO	src/master.go:61	pushing file PbWfq19LQhCLWbu0zffEggdWRLOQ7z0P, size: 33.251MB, key: model_0, filename: checkpoints_20221108_190949.421803.tar, hash: crc32:H31odA
+2022-11-08 22:16:40.798	INFO	server/service.go:130	process:282, trpc service:trpc.modelpool.main.ModelPool launch success, tcp:0.0.0.0:10013, serving ...
+2022-11-08 22:16:40.798	INFO	server/service.go:130	process:282, http service:trpc.modelpool.main.ModelPoolHTTP launch success, tcp:0.0.0.0:10014, serving ...
