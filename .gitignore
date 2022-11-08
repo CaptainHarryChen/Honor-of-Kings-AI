@@ -1,4 +1,5 @@
 logs/
 build/
 model_bkup/
-code\cpu_code\actor\code\algorithms\checkpoint\
+code/cpu_code/actor/code/algorithms/checkpoint/
+code/cpu_code/actor/code/GameAiMgr_2022.txt
