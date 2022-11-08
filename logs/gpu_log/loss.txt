@@ -1,2 +1,2 @@
-{"role": "learner", "ip_address": "127.0.0.1", "step": "1", "timestamp": "11/07/2022-20:40:20", "info_map": "{'loss': 0.87027293, 'value_cost': 0.4807129, 'entropy_cost': -12.065427, 'policy_cost': 0.6911957}"}
-{"role": "learner", "ip_address": "127.0.0.1", "step": "2", "timestamp": "11/07/2022-20:40:28", "info_map": "{'loss': 0.68329734, 'value_cost': 0.401635, 'entropy_cost': -12.073357, 'policy_cost': 0.5834963}"}
+{"role": "learner", "ip_address": "127.0.0.1", "step": "1", "timestamp": "11/08/2022-19:14:40", "info_map": "{'loss': 0.07446131, 'value_cost': 0.55792946, 'entropy_cost': -12.132817, 'policy_cost': -0.18014771}"}
+{"role": "learner", "ip_address": "127.0.0.1", "step": "2", "timestamp": "11/08/2022-19:14:47", "info_map": "{'loss': -0.33050197, 'value_cost': 0.38445666, 'entropy_cost': -12.131668, 'policy_cost': -0.41166693}"}
