@@ -52,7 +52,7 @@ class ModelConfig:
     ]
     SERI_VEC_SPLIT_SHAPE = [(725,), (84,)]
     INIT_LEARNING_RATE_START = 0.0001
-    BETA_START = 0.001
+    BETA_START = 0.025
     LOG_EPSILON = 1e-6
     LABEL_SIZE_LIST = [12, 16, 16, 16, 16, 8]
     IS_REINFORCE_TASK_LIST = [
