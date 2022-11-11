@@ -122,7 +122,7 @@ class ModelConfig:
 
 
 class Config:
-    slow_time = 0.25
+    slow_time = 0.3
     TRAIN_MODE = 0
     EVAL_MODE = 1
     BATTLE_MODE = 2
